@@ -1,0 +1,36 @@
+{
+  "name": "vite-plugin-yaml",
+  "version": "1.0.0",
+  "description": "Vite plugin for YAML files",
+  "author": {
+    "name": "Clément BERNARD",
+    "email": "clemvnt@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "vite",
+    "vitejs",
+    "plugin",
+    "yaml",
+    "yml"
+  ],
+  "module": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "playground:dev": "vite serve playground -c playground/vite.config.ts",
+    "playground:build": "vite build playground  -c playground/vite.config.ts"
+  },
+  "dependencies": {
+    "js-yaml": "^3.14.0",
+    "tosource": "^2.0.0-alpha.2"
+  },
+  "peerDependencies": {
+    "vite": "^1.0.0-beta.8"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^3.12.5",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.5",
+    "vite": "^1.0.0-beta.8"
+  }
+}
