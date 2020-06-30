@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-yaml",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vite plugin for YAML files",
   "author": {
     "name": "Clément BERNARD",
@@ -15,6 +15,10 @@
     "yml"
   ],
   "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "playground:dev": "vite serve playground -c playground/vite.config.ts",
