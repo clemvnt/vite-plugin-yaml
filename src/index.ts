@@ -18,4 +18,4 @@ const yamlPlugin: Plugin = {
   ]
 }
 
-export default yamlPlugin
+module.exports = yamlPlugin

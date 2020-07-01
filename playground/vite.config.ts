@@ -1,8 +1,7 @@
 import { UserConfig } from 'vite'
-import yamlPlugin from '../dist/index'
 
 const config: UserConfig = {
-  plugins: [yamlPlugin]
+  plugins: [require('../dist/index')]
 }
 
 export default config
