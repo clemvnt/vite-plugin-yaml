@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-yaml",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Vite plugin for YAML files",
   "author": {
     "name": "Clément BERNARD",
