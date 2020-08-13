@@ -1,3 +1,3 @@
-a: 'Text A'
+a: 'Value A'
 b:
-  c: 'Text C'
+  c: 'Value C'

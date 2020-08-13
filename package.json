@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-yaml",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Vite plugin for YAML files",
   "author": {
     "name": "Clément BERNARD",
@@ -29,12 +29,12 @@
     "tosource": "^2.0.0-alpha.2"
   },
   "peerDependencies": {
-    "vite": "^1.0.0-beta.8"
+    "vite": "^1.0.0-rc.4"
   },
   "devDependencies": {
     "@types/js-yaml": "^3.12.5",
     "prettier": "^2.0.5",
-    "typescript": "^3.9.5",
-    "vite": "^1.0.0-beta.8"
+    "typescript": "^3.9.7",
+    "vite": "^1.0.0-rc.4"
   }
 }
