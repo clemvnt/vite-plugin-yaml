@@ -5,17 +5,14 @@ import toSource from 'tosource'
 const ext = /\.ya?ml$/
 
 const yamlPlugin: Plugin = {
-  transforms: [
-    {
-      test({ path }) {
-        return ext.test(path)
-      },
-      transform({ code }) {
-        const transformedCode = `const data = ${toSource(safeLoad(code))}\n`
-        return transformedCode + 'export default data'
+  name: 'yaml',
+  transform(code, id) {
+    if (ext.test(id)) {
+      return {
+        code: `export default ${toSource(safeLoad(code))}\n`,
       }
     }
-  ]
+  },
 }
 
 module.exports = yamlPlugin
