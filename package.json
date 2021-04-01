@@ -6,6 +6,10 @@
     "name": "Clément BERNARD",
     "email": "clemvnt@gmail.com"
   },
+  "repository": {
+    "url": "https://github.com/clemvnt/vite-plugin-yaml",
+    "type": "git"
+  },
   "license": "MIT",
   "keywords": [
     "vite",
